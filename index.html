@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>A2 - Programming Exercises and Tabs</title>
+        <link href="style/style.css" rel="stylesheet">
+        <script src="scripts/LeonardoA2.js"></script>
+    </head>
+
+    <body>
+
+        <div id=header>
+            <div>
+                NBCC-ITPA:SJ-PROG1128-JavaScript Programming (v1)
+            </div>
+            <div>
+                A2 - Programming Exercises and Tabs
+            </div>
+        </div>
+
+        <div id="main-container">
+            <div>
+                <div id="tab-container">
+                    <div id="tab-1" class="tab" value="input-1">Exercise 1</div>
+                    <div id="tab-2" class="tab" value="input-2">Exercise 2</div>
+                    <div id="tab-3" class="tab" value="input-3">Exercise 3</div>
+                    <div id="tab-4" class="tab" value="input-4">Exercise 4</div>
+                    <div id="tab-5" class="tab" value="input-5">Exercise 5</div>
+                    <div id="tab-6" class="tab" value="input-6">Exercise 6</div>
+                    <div id="tab-7" class="tab" value="input-7">Exercise 7</div>
+                    <div id="tab-8" class="tab" value="input-8">Exercise 8</div>
+                    <div id="tab-9" class="tab" value="input-9">Exercise 9</div>
+                    <div id="tab-10" class="tab" value="input-10">Exercise 10</div>
+                </div>
+    
+                <div id="input-container">
+                    
+                    <div id="input-1" class="input">
+                        <div>
+                            <h1>Exercise 1</h1>
+                            Ask the user for two integers, min and max , and display all the integers from min to max (inclusive of both).
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Minimum</span>
+                            <input type="number" id="inputQ1min">
+                        </div>
+                        
+                        <div>
+                            <span>Maximum</span>
+                            <input type="number" id="inputQ1max">
+                        </div>
+
+                        <div>
+                            <span></span>
+                            <button id="btnExercise1">Show output</button>
+                        </div>
+                    </div>
+
+                    <div id="input-2" class="input">
+                        <div>
+                            <h1>Exercise 2</h1>
+                            Ask the user for a comma-separated set of numeric values. Display the number of values entered, the total, the average, the smallest value, and the largest value.
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Numeric Values</span>
+                            <input type="text" id="inputQ2">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise2">Show output</button>
+                        </div>
+                    </div>
+        
+                    <div id="input-3" class="input">
+                        <div>
+                            <h1>Exercise 3</h1>
+                            Ask the user for a comma-separated set of numeric values, nums, and for a number to search for, key. Display the number of times key is in nums.
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Nums</span>
+                            <input type="text" id="inputQ3nums">
+                        </div>
+                        <div>
+                            <span>Key</span>
+                            <input type="text" id="inputQ3key">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise3">Show output</button>
+                        </div>
+                    </div>
+        
+                    <div id="input-4" class="input">
+                        <div>
+                            <h1>Exercise 4</h1>
+                            Ask the user for a number of stars, numStars, and display that number of stars on a single line. (A star is the '*' character.)
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Number of stars</span>
+                            <input type="number" id="inputQ4">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise4">Show output</button>
+                        </div>
+                    </div>
+                    
+                    <div id="input-5" class="input">
+                        <div>
+                            <h1>Exercise 5</h1>
+                            Ask the user for a number of stars, numStars, and a maximum number of stars per line, max. Display numStars stars with at most max stars per line.
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Number of stars</span>
+                            <input type="number" id="inputQ5numStars">
+                        </div>
+                        <div>
+                            <span>Number per line</span>
+                            <input type="number" id="inputQ5max">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise5">Show output</button>
+                        </div>
+                    </div>
+                    
+                    <div id="input-6" class="input">
+                        <div>
+                            <h1>Exercise 6</h1>
+                            Ask the user for a string. Display the number of vowels (case insensitive) in the string. Display a new string containing a star ('*') in place of each vowel.
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>String</span>
+                            <input type="text" id="inputQ6">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise6">Show output</button>
+                        </div>
+                    </div>
+                    
+                    <div id="input-7" class="input">
+                        <div>
+                            <h1>Exercise 7</h1>
+                            At a certain courier company, shipping costs (not including tax) are $5/item for fewer than 100 items, $4/item for between 100 and 1,000 items, and $3/item for more than 1,000 items. Ask the user how many items to ship. Display the base cost, a 15% tax, and the total cost.
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Items to ship</span>
+                            <input type="number" id="inputQ7">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise7">Show output</button>
+                        </div>
+                    </div>
+                    
+                    <div id="input-8" class="input">
+                        <div>
+                            <h1>Exercise 8</h1>
+                            A single Snickers bar costs $1.75, and a box of 24 bars costs $32. Ask the user how many bars they want to buy. Display the number of boxes required, the number of single bars required, the cost to buy the boxes, the cost to buy the single bars, and the total cost.
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Bars to buy</span>
+                            <input type="number" id="inputQ8">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise8">Show output</button>
+                        </div>
+                    </div>
+                    
+                    <div id="input-9" class="input">
+                        <div>
+                            <h1>Exercise 9</h1>
+                            Ask the user to enter a binary number. Convert the binary number to decimal (base 10) and display each step of the conversion as well as the final result. (The steps can be either left-to-right or right-to-left.)
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Binary number</span>
+                            <input type="number" id="inputQ9">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise9">Show output</button>
+                        </div>
+                    </div>
+                    
+                    <div id="input-10" class="input">
+                        <div>
+                            <h1>Exercise 10</h1>
+                            Ask the user for the three angles of a triangle. Display the message "Right Triangle" if any of the angles is 90, "Obtuse Triangle" if any of the angles is greater than 90, or "Acute Triangle" if all of the angles are less than 90.
+                            <h2>Input</h2>
+                        </div>
+                        <div>
+                            <span>Angle A</span>
+                            <input type="number" id="inputQ10angleA">
+                        </div>
+                        <div>
+                            <span>Angle B</span>
+                            <input type="number" id="inputQ10angleB">
+                        </div>
+                        <div>
+                            <span>Angle C</span>
+                            <input type="number" id="inputQ10angleC">
+                        </div>
+                        <div>
+                            <span></span>
+                            <button id="btnExercise10">Show output</button>
+                        </div>
+                    </div>
+
+
+                    <div id="output-title">
+                        <div>
+                            <h2>Output</h2>
+                        </div>
+                    </div>
+
+                    <div id="output-container"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div>Leonardo de Andrade</div>
+            <div>leonardojdas@gmail.com</div>
+        </div>
+
+    </body>
+</html>
