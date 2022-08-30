@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+#header{
+    background-color: #1D41CD;
+    width: 100%;
+}
+
+#header div:first-child{
+    padding: 10px;
+    font-size: 0.8em;
+    color: white;
+    background-color: rgba(255, 255, 255, .2)
+}
+
+#header div:last-child{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+#main-container{
+    background-color: rgba(255, 255, 255, .025);
+    width: calc(95% - 100px);
+    padding: 50px;
+    margin: 0 auto;
+}
+
+#main-container > div{
+    overflow: auto;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+}
+
+#tab-container{
+    width: 160px;
+    float: left;
+}
+
+.tab{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: solid 2px #151517;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #151517;
+    cursor: pointer;
+    color: #A3A3A8;
+    transition: .5s;
+}
+
+.tab:last-child{
+    margin-bottom: 0px;
+}
+
+.tab:hover{
+    border: solid 2px #3BA4E6;
+    background-color: transparent;
+    border-radius: 15px;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+#input-container{
+    background-color: #151517;
+    width: calc(100% - 160px - 25px);
+    margin-left: 25px;
+    border-radius: 15px;
+    float: left;
+}
+
+.input{
+    width: calc(100% - 100px);
+    padding: 50px;
+    display: none;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.input div:first-child{
+    float: none;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(to right, #3BA4E6, #1D41CD) 1;
+    margin-bottom: 30px;
+}
+
+.input div{
+    float: left;
+    padding-right: 10px;
+}
+
+.input h1{
+    font-size: 2.5em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.input h2{
+    padding-top: 50px;
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.input span{
+    padding: 5px;
+}
+
+.input span::after{
+    content: "\A";
+    white-space: pre-line;
+}
+
+.input input{
+    width: 100px;
+    height: 20px;
+    padding: 15px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    background-color: #000000;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#inputQ2, #inputQ3nums, #inputQ6, #inputQ9{
+    width: 300px;
+}
+
+.input button{
+    background-color: #1D41CD;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.input button:hover{
+    background-color: #8D28FF;
+    transition: .5s;
+}
+
+.tab-selected{
+    border: solid 2px #3BA4E6;
+    border-image: linear-gradient(to right, #3BA4E6, #1D41CD) 1;
+    background-image: linear-gradient(to right, #3BA4E6, #1D41CD);
+    color: #ffffff;
+}
+
+.show-input{
+    display: block;
+}
+
+#output-title{
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#output-title div{
+    margin-bottom: 30px;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(to right, #FBA0E6, #8D28FF) 1;
+}
+
+#output-title h2{
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+#output-container{
+    width: calc(100% - 160px);
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 50px;
+    overflow: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: #000000;
+}
+
+#output-container ul{
+    margin: 0px;
+}
+
+.superscript{
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+#footer{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #151517;
+    color: #479BFF;
+    text-align: center;
+}
+
+#footer div:first-child{
+    font-weight: 700;
+}
+
+#footer div:last-child{
+    font-size: .8em;
+}
